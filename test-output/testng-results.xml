@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51936" started-at="2017-12-24T17:47:00Z" finished-at="2017-12-24T17:47:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51936" started-at="2017-12-24T17:47:00Z" finished-at="2017-12-24T17:47:52Z">
+      <class name="com.uptake.test.UptakeHomeTest">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="testInit" is-config="true" duration-ms="8482" started-at="2017-12-24T11:47:00Z" finished-at="2017-12-24T11:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="180" started-at="2017-12-24T11:47:08Z" finished-at="2017-12-24T11:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyProductsNavigation()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyProductsNavigation" duration-ms="2362" started-at="2017-12-24T11:47:09Z" finished-at="2017-12-24T11:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsNavigation -->
+        <test-method status="PASS" signature="indudustiesNavigation()[pri:1, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="indudustiesNavigation" duration-ms="2304" started-at="2017-12-24T11:47:11Z" finished-at="2017-12-24T11:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indudustiesNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:11Z" finished-at="2017-12-24T11:47:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:13Z" finished-at="2017-12-24T11:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyAboutNavigation()[pri:2, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyAboutNavigation" duration-ms="2309" started-at="2017-12-24T11:47:13Z" finished-at="2017-12-24T11:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAboutNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:16Z" finished-at="2017-12-24T11:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="expertiseNavigation()[pri:3, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="expertiseNavigation" duration-ms="2500" started-at="2017-12-24T11:47:16Z" finished-at="2017-12-24T11:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expertiseNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="1" started-at="2017-12-24T11:47:18Z" finished-at="2017-12-24T11:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyNewsAndInsightNavigation()[pri:4, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyNewsAndInsightNavigation" duration-ms="2653" started-at="2017-12-24T11:47:18Z" finished-at="2017-12-24T11:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsAndInsightNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="1" started-at="2017-12-24T11:47:21Z" finished-at="2017-12-24T11:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="careersNavigation()[pri:5, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="careersNavigation" duration-ms="2553" started-at="2017-12-24T11:47:21Z" finished-at="2017-12-24T11:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careersNavigation -->
+        <test-method status="PASS" signature="verifyAgricultureNavigation()[pri:6, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyAgricultureNavigation" duration-ms="2428" started-at="2017-12-24T11:47:23Z" finished-at="2017-12-24T11:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgricultureNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:23Z" finished-at="2017-12-24T11:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:26Z" finished-at="2017-12-24T11:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyAviationPageNavigation()[pri:7, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyAviationPageNavigation" duration-ms="2337" started-at="2017-12-24T11:47:26Z" finished-at="2017-12-24T11:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAviationPageNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:28Z" finished-at="2017-12-24T11:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyConstrutionPageNavigation()[pri:8, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyConstrutionPageNavigation" duration-ms="2393" started-at="2017-12-24T11:47:28Z" finished-at="2017-12-24T11:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConstrutionPageNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:30Z" finished-at="2017-12-24T11:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyEnergyPageNavigation()[pri:9, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyEnergyPageNavigation" duration-ms="2382" started-at="2017-12-24T11:47:30Z" finished-at="2017-12-24T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnergyPageNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:33Z" finished-at="2017-12-24T11:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyEquipmentDelearsPageNavigation()[pri:10, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyEquipmentDelearsPageNavigation" duration-ms="2403" started-at="2017-12-24T11:47:33Z" finished-at="2017-12-24T11:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEquipmentDelearsPageNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:35Z" finished-at="2017-12-24T11:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyMiningNavigation()[pri:12, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyMiningNavigation" duration-ms="2646" started-at="2017-12-24T11:47:35Z" finished-at="2017-12-24T11:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMiningNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:38Z" finished-at="2017-12-24T11:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyOilAndGasNavigation()[pri:13, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyOilAndGasNavigation" duration-ms="2502" started-at="2017-12-24T11:47:38Z" finished-at="2017-12-24T11:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOilAndGasNavigation -->
+        <test-method status="PASS" signature="verifyRailNavigation()[pri:14, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyRailNavigation" duration-ms="2627" started-at="2017-12-24T11:47:40Z" finished-at="2017-12-24T11:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRailNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:40Z" finished-at="2017-12-24T11:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="0" started-at="2017-12-24T11:47:43Z" finished-at="2017-12-24T11:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyWingNavigation()[pri:15, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyWingNavigation" duration-ms="2555" started-at="2017-12-24T11:47:43Z" finished-at="2017-12-24T11:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWingNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="1" started-at="2017-12-24T11:47:46Z" finished-at="2017-12-24T11:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifyDataScienceNavigation()[pri:16, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifyDataScienceNavigation" duration-ms="2769" started-at="2017-12-24T11:47:46Z" finished-at="2017-12-24T11:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDataScienceNavigation -->
+        <test-method status="PASS" signature="intiatePageObjects()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="intiatePageObjects" is-config="true" duration-ms="1" started-at="2017-12-24T11:47:48Z" finished-at="2017-12-24T11:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiatePageObjects -->
+        <test-method status="PASS" signature="verifySecurityNavigation()[pri:17, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="verifySecurityNavigation" duration-ms="2587" started-at="2017-12-24T11:47:48Z" finished-at="2017-12-24T11:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecurityNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uptake.test.UptakeHomeTest@1593948d]" name="tearDown" is-config="true" duration-ms="875" started-at="2017-12-24T11:47:51Z" finished-at="2017-12-24T11:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uptake.test.UptakeHomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
