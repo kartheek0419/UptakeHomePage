@@ -61,49 +61,6 @@ public class UptakeHomeTest
 	private static long testSyncTime = 60;
 	private static String pageTitle = "Industrial Analytics for Global Industry | Uptake";
 	
-//	@Test
-//	public void Navigatite() throws InterruptedException
-//	{
-//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\lib\\chromedriver.exe");
-//		WebDriver driver = new ChromeDriver();
-//		driver.get("https://www.uptake.com/");
-//		wait = new WebDriverWait(driver, 30);
-//		home = new UptakeHomePage(driver);
-//		products = new ProductsPage(driver);
-//		aviation = new Aviation(driver);
-//		wait.until(ExpectedConditions.visibilityOf(UptakeHomePage.getMainMenu().get(0)));
-//		UptakeHomePage.getProducts();
-////		wait.until(ExpectedConditions.visibilityOf(ProductsPage.getHeading()));
-//				Thread.sleep(2000);
-//		if(ProductsPage.getHeading().getText().equalsIgnoreCase("products"))
-//		{
-//			Assert.assertTrue(true);
-//		}
-//		else
-//		{
-//			
-//			Assert.assertFalse(true);
-//		}
-//		Assert.assertTrue(driver.getCurrentUrl().contains("products"));
-//		
-//		
-//		
-//		UptakeHomePage.getEquipmentDealers();
-//		Thread.sleep(2000);
-//		
-//		
-//		driver.quit();	
-//	}
-	
-//	@Test
-//	public static void initiateBrowser()
-//	{
-//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\lib\\chromedriver.exe");
-//		WebDriver driver = new ChromeDriver();
-//		wait.until(ExpectedConditions.visibilityOf(UptakeHomePage.getMainMenu().get(1)));
-//		home = new UptakeHomePage(driver);
-//		driver.get("https://www.uptake.com/");
-//	}
 	
 	@BeforeTest
 	public void testInit()
@@ -131,6 +88,7 @@ public class UptakeHomeTest
 		construction = new ConstructionPage(testDriver);
 		energy = new EnergyPage(testDriver);
 		equipmentDealers = new EquipmentDealers(testDriver);
+		fleet = new FleetPage(testDriver);
 		mining = new MiningPage(testDriver);
 		oilAndGas = new OilAndGasPage(testDriver);
 		rail = new RailPage(testDriver);
@@ -212,7 +170,6 @@ public class UptakeHomeTest
 		boolean result = false;
 		result = uptakeHome.navigateToAviationScreen();
 		Assert.assertTrue(result);
-//		wait.until(ExpectedConditions.presenceOfElementLocated())
 		Assert.assertTrue(aviation.verifyPageUrl());
 	}
 	
@@ -243,15 +200,15 @@ public class UptakeHomeTest
 		Assert.assertTrue(result);
 		Assert.assertTrue(equipmentDealers.verifyPageUrl());
 	}
-//	@Test(priority=11)
-//	public void verifyFleetPageNavigation() throws InterruptedException
-//	{
-//		
-//		boolean result = false;
-//		result = uptakeHome.navigateToFleetScreen();
-//		Assert.assertTrue(result);
-//		Assert.assertTrue(fleet.verifyPageUrl());
-//	}
+	@Test(priority=11)
+	public void verifyFleetPageNavigation() throws InterruptedException
+	{
+		
+		boolean result = false;
+		result = uptakeHome.navigateToFleetScreen();
+		Assert.assertTrue(result);
+		Assert.assertTrue(fleet.verifyPageUrl());
+	}
 	@Test(priority=12)
 	public void verifyMiningNavigation()
 	{
